@@ -5,18 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Devblog</title>
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
 </head>
 <body>
-  <header>
-    <strong>Dev blog</strong>
-    <nav>
-      <ul>
-        <li><a href="{{site.baseurl}}index.html">Home</a></li>
-        <li><a href="news.html">News</a></li>
-        <li>Contact</li>
-      </ul>
-    </nav>
-  </header>
+  {% include header.html %}
   {{ content }}
+
+  {% include footer.html %}
 </body>
 </html>
