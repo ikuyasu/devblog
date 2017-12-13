@@ -1,5 +1,5 @@
 markdown: kramdown
-baseurl: /devblog
+baseurl: /devblog/
 exclude: []
 
 highlighter: rouge
