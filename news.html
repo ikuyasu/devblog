@@ -5,10 +5,10 @@ layout: default
 <h1>News</h1>
 
 <ul>
-  {% for post in site.posts %}
-  <li>
-    <a href="{{site.baseurl}}/posts/{{post.folder}}">{{post.title}}</a>
-    <p>{{post.content}}</p>
-  </li>
+  {% for post in site.categories.alpaca limit:10 %}
+      <li>
+        <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+        <p>{{post.content}}</p>
+      </li>
   {% endfor %}
 </ul>
