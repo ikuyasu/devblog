@@ -1,5 +1,5 @@
 --- 
-layout: default
+layout: article
 title: my mermaid secret
 author: Me
 category: dugong
