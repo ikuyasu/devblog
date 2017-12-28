@@ -1,10 +1,16 @@
---- 
-layout: article
+---
 title: I Started Learning C/C++
+date: 2017-12-19 00:00:00 Z
+categories:
+- code
+tags:
+- c
+- cpp
+- emacs
+- c++
+layout: article
 author: Me
-category: code
-tag: [c, cpp, emacs, c++]
---- 
+---
 
 I actually used to learn C back in the days when I thought I needed to run a lot of simulatinos on the local computer(s), which is difficult to do with Matlab. I am doing it through Coursera and the course is provided by Duke University. I am also taking Introduction to C++ through EdX Microsoft. The C++ course runs faster as they target students who already know some programming.
 
